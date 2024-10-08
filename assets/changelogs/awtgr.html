@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Changelog</title>
+  <style>
+  @import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Open+Sans:400,400i,600,600i,700,700i|Roboto+Slab:300,400,700&subset=cyrillic');
+
+html {
+  box-sizing: border-box;
+}
+
+*::before,
+*,
+*::after {
+  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
+}
+
+li{
+  color: white;
+}
+div{
+  color: white;
+}
+h1{
+  color: white;
+}
+h3{
+  color: white;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+span{
+  font-size: small;
+}
+
+img.emoji{
+  height: 1em;
+  width: 1em;
+  margin: 0 .05em 0 .1em;
+  vertical-align: -0.1em;
+}
+
+header{
+    border-bottom: 1px solid #f3f3f3;
+    padding: 1rem;
+}
+header.-fixed + .wrap-content {
+  padding-top: 60px;
+}
+.wrap-content{
+  overflow-y: auto;
+  min-height:calc(100vh - 64px);
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+    .label-inline{
+      padding: 2px 6px;
+      font-size: 10pt;
+      border-radius: 5px;
+      margin: 0 5px 0 0;
+    }
+    ul, ol {
+      list-style-position: inside;
+      padding: 5px;     
+    }
+    dd{
+      list-style-position: inside;
+    }
+    .-declined{
+      display: inline-flex;
+      padding: 0 4px;
+      border: 2px solid rgba(0,0,0,.3);
+      opacity: .5;
+      background: transparent;
+      border-radius: 5px;
+      align-items: center;
+      justify-content: center;
+      text-decoration: line-through;
+    }
+
+@include media(">phone", "<=tablet") {
+  header.-fixed + .wrap-content {
+    padding-top: 100px;
+  }
+}
+  </style>
+</head>
+<body style="background-color:rgb(52, 14, 80);">
+  <div class="wrap-content">
+    <article class="changelog">
+      <section class="version -planned">
+        <div class="header">
+          <h2 class="version-num">Game Version 1.0.0</h2>
+          <div>
+            Last change: <time class="datetime" datetime="11-03-2023">11.3.2023</time>
+          </div>         
+        </div>
+      </br>
+      <section>
+      </br>
+        <div class="label -s -blue" style="font-size:large;"><b style="background: rgb(175, 14, 175);">Full Release (1.0)</b>  <i>11.3.2023</i></div>
+      </section>
+      <section>
+      </br>
+        <div class="label -s -blue" style="font-size:large;"><b style="background: rgb(175, 14, 175);">Major Update (0.9<i style="font-size:small;">CB</i>)</b>  <i>27.2.2023</i></div>
+      </section>
+      <div class="label -s -bg"><b>Added:</b></div>
+          <ul>
+            <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New playable game area</li>           
+            <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New enemies</li>
+            <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New music in soundtrack</li>
+          </ul>
+      <ul>
+        <div class="label -s -bg"><b>Issue Fixes:</b></div>
+          <ul>
+            <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> General Bugfixes</li>
+          </ul>
+      </br>
+      <section>
+      </br>
+        <div class="label -s -blue"><b style="background: rgb(175, 14, 175);">Interlude Update (0.8.5<i style="font-size:small;">CB</i>)</b>  <i>27.12.2022</i></div>
+      </section>
+      <ul>
+        <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New playable game area</li>
+        <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New game mechanics to go along with this area</li>
+        <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New enemies</li>
+        <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New music in soundtrack</li>
+        <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> General bugfixes</li>
+      </ul>
+      <section>
+      </br>
+        <div class="label -s -blue"style="font-size:small;"><b style="background: rgb(175, 14, 175);">Patch Notes (0.8.1<i style="font-size:smaller;">CB</i>)</b>  <i>13.12.2022</i></div>
+      </section>
+      <ul style="font-size:small;">
+        <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> Skill Scrolls not working properly fixed</li>
+        <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> Missing audio files in certain fights</li>
+        <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> Screen incorrently fading out at a certain point in the game</li>
+      </ul>
+      <ul style="font-size:small;">
+        <li>Small Balance changes</li>
+      </ul>
+      <section>
+      </br>
+        <div class="label -s -blue" style="font-size:large;"><b style="background: rgb(175, 14, 175);">Major Update (0.8<i style="font-size:small;">CB</i>)</b>  <i>11.12.2022</i></div>
+      </section>
+      <div class="label -s -bg"><b>Added:</b></div>
+          <ul>
+            <li><span style="background: rgb(172, 25, 152);">SYSTEM CHANGE</span> Quest Journal & Quest System</li>
+            <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New playable game area</li>
+            <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New Dungeon in Desolate Tundra</li>
+            <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> Side Quests (More to come)</li>
+            <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New enemies</li>
+            <li><span style="background: rgb(209, 12, 104);">NEW CONTENT</span> New music in soundtrack</li>
+            <li><span style="background: rgb(173, 48, 79);">CONTENT UPDATES</span> A Lot more polish to existing dungeons</li>
+          </ul>
+      <ul>
+        <div class="label -s -bg"><b>Issue Fixes:</b></div>
+          <ul>
+            <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> General Bugfixes (Too many to list)</li>
+          </ul>
+      </br>
+      <section>
+      </br>
+        <div class="label -s -blue"><b style="background: rgb(175, 14, 175);">Game Changes (0.7.3<i style="font-size:small;">CB</i>)</b>  <i>1.7.2022</i></div>
+      </section>
+      <ul>
+        <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> General bugfixes</li>
+        <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> Fixed issue with snowing animation showing up inside houses</li>
+        <li><span style="background: rgb(175, 14, 89);">ISSUE FIX</span> File archive issue</li>
+      </ul>
+      <ul>
+        <li>Balancing changes for new content</li>
+        <li>Updated overworld music track</li>
+      </ul>
+        <section>
+          <br>
+          <div class="label -s -blue"><b style="background: rgb(175, 14, 175);">Game Changes (0.7.2<i style="font-size:small;">CB</i>)</b>  <i>30.6.2022</i></div>
+          <ul>
+            <li><span style="background: rgb(175, 14, 89);">MAJOR ISSUE FIX</span> Starting point causing the player to start at a non-intended point</li>
+            <li><span style="background: rgb(175, 14, 89);">MAJOR ISSUE FIX</span> File archive issue</li>
+          </ul>
+          <div class="label -s -bg"><b>Added:</b></div>
+          <ul>
+            <li>New areas</li>
+            <li>Made Darky even cuter</li>
+            <li>Unique weapons hidden in the new area</li>
+            <li>New lore strewn around</li>
+            <li>New weapon and armor tier</li>
+            <li>New enemies</li>
+          </ul>
+        </section>
+        <div class="label -s -bg"><b>Bug Fixes:</b></div>
+        <section>
+          <ul>
+            <li><span style="background: rgb(175, 14, 89);">BALANCE CHANGE</span> Nerfed cornbread</li>
+            <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> Fixed crash involving transfer event</li>
+            <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> Fixed Trollge Boss music</li>
+            <li><span style="background: rgb(175, 14, 89);">BUGFIX</span> Fixed missing tranfer event</li>
+          </ul>
+        </section>
+        <!--<section>         
+          <ul>
+            <li><span style="background: rgb(175, 14, 89);">TODO</span> Finish Tundra</li>
+          </ul>
+          <ul>
+            <li><span style="background: rgb(187, 14, 14);">KNOWN ISSUE</span> Rebalance Cornbread</li>  
+            <li><span style="background: rgb(187, 14, 14);">KNOWN ISSUE</span> Engineer Islands: Transfer event leading to a missing map causing the game to crash</li>          
+          </ul>
+        </section>-->
+      </br>
+    </article>
+  </div>
+</body>
+</html>
